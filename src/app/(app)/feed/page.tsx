@@ -148,7 +148,7 @@ function FeedContent() {
                       {stripAndTrimDescription(q.description, 20)}
                     </p>
                     <p className="text-sm text-gray-500">
-                      {q._count.answers} answer{q._count.answers !== 1 && "s"}
+                      {/* {q._count.answers} answer{q._count.answers !== 1 && "s"} */}
                     </p>
                   </div>
                 </CardContent>

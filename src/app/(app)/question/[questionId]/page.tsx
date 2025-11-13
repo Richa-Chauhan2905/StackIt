@@ -33,7 +33,6 @@ import {
   Trash2,
   MoreHorizontal,
 } from "lucide-react";
-import User from "../../../../../assets/user.png";
 import { toast } from "sonner";
 import Image from "next/image";
 import Link from "next/link";
@@ -284,7 +283,7 @@ export default function SingleQuestionDetails() {
               <Link href={`/profile/${question.user.id}`}>
                 {question.user.image ? (
                   <Image
-                    src={question.user.image || User}
+                    src={question.user.image}
                     alt={question.user.username[0].toUpperCase()}
                     width={40}
                     height={40}
